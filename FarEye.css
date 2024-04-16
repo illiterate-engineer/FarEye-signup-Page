@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Lato', 'Helvetica';
+}
+.container{
+    display: flex;
+
+}
+.flex-child-1{
+ // min-height: 99vh;
+ //resize: none;
+}
+
+.flex-child-1 img{
+    /* display: flex;
+flex: 0 0 18%; */
+height: 100%;
+width: 34rem;
+
+}
+.width-controller-login-box{
+    min-width: 48rem;
+}
+.flex-child-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   // font-size: 1.5rem;
+   position: relative;
+   top:-12rem;
+}
+
+.logo-container{
+    margin-bottom: 1.5rem;
+}
+.logo-container img{
+    height: 4rem;
+}
+
+.text-markup{
+    margin-bottom: 1.5rem;
+}
+.text-markup h3{
+    font-size: 2.8rem;
+    color: rgb(32,44,57);
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.text-markup p{
+    font-size: 1.4rem;
+    color: rgb(76, 87,97);
+    letter-spacing: 0.04rem;
+    font-weight: lighter;
+}
+
+.username{
+    color: #485761;
+    font-size:1.4rem ;
+    margin-bottom: 0.5rem;
+}
+
+.input-box{
+    width: 100%;
+    padding: 0.7rem 1.1rem;
+    border: 1px solid rgb(221, 221, 221);
+   
+    background-color: rgb(244, 245, 247);
+    height: 3.8rem;
+    border-radius: 1rem;
+    outline-color: #ff4221ab;
+    margin-bottom: 1.5rem;
+}
+
+.remember-me-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.checkbox{
+    display:flex;
+    align-items: center;
+}
+.checkbox input{
+    color: rgb(114, 114, 114);
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.checkbox label{
+    font-size: 1.5rem;
+    color: rgb(114,114,114);
+    padding-left: 0.8rem;
+}
+
+.remember-me-container span a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(238, 82, 57);
+}
+
+.btn-orange{
+    background-color: rgb(238, 82, 57);
+    width: 100%;
+    border: none;
+    padding: 1.2rem;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 1.3rem;
+}
